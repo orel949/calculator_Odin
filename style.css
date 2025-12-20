@@ -1,0 +1,97 @@
+#toucheSpecial{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+.act{
+    background-color: purple;
+    color: white;
+}
+.ope{
+    background-color: gray;
+    color: white;
+}
+.container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 337px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap : 40px;
+}
+.operators{
+    padding: 5px;
+    border-radius: 5px;
+    width: 275px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 5px
+}
+.displayBarre{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 287px;
+    height: 80px;
+}
+.barreHaut
+{
+    font-size: 18px;
+    color: green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+.barreBas
+{
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5px;
+    flex-grow: 2;
+}
+.touche{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
